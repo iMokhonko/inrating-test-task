@@ -5,6 +5,13 @@ import store from './store'
 
 Vue.config.productionTip = false
 
+import ElementUI from 'element-ui';
+import 'element-ui/lib/theme-chalk/index.css';
+import Vuelidate from 'vuelidate'
+
+Vue.use(Vuelidate)
+Vue.use(ElementUI);
+
 new Vue({
   router,
   store,
